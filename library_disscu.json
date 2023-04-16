@@ -1,0 +1,561 @@
+{
+	"intents": [
+	{
+		"tag": " locations",
+		"patternsbot": ["Thời tiết thành phố {patterns}","Thành Phố {patterns}","tp {patterns}","tỉnh {patterns}","{patterns}","Hôm nay tôi đi {patterns}"],
+		 "data": [
+			{
+			  "place": "An Giang",
+			  "patterns": [
+				"an giang",
+				"An Giang",
+				"AnGiang",
+				"AN GIANG"
+			  ]
+			},
+			{
+			  "place": "Bà Rịa - Vũng Tàu",
+			  "patterns": ["bà rịa - vũng tàu",
+				"Bà Rịa - Vũng Tàu",
+				"ba ria vung tau",
+				"Ba Ria Vung Tau",
+				"Bà Rịa - Vũng Tàu",
+				"BA RIA VUNG TAU",
+				"Bà Rịa Vũng Tàu",
+				"BA RIA - VUNG TAU"
+			  ]
+			},
+			{
+			  "place": "Bắc Giang",
+			  "patterns": [
+				"bắc giang",
+				"Bắc Giang",
+				"Bac Giang",
+				"BAC GIANG"
+			  ]
+			},
+			{
+			  "place": "Bắc Kạn",
+			  "patterns": [
+				"bắc kạn",
+				"Bắc Kạn",
+				"Bac Kan",
+				"BAC KAN"
+			  ]
+			},
+			{
+			  "place": "Bạc Liêu",
+			  "patterns": [
+				"bạc liêu",
+				"Bạc Liêu",
+				"bac lieu",
+				"Bac Lieu",
+				"BAC LIEU"
+			  ]
+			},
+			{
+			  "place": "Bắc Ninh",
+			  "patterns": [
+				"bắc ninh",
+				"Bắc Ninh",
+				"Bac Ninh",
+				"BAC NINH"
+			  ]
+			},
+			{
+			  "place": "Bến Tre",
+			  "patterns": [
+				"bến tre",
+				"Bến Tre",
+				"ben tre",
+				"Ben Tre",
+				"BEN TRE"
+			  ]
+			},
+			{
+			  "place": "Bình Định",
+			  "patterns": [
+				"bình định",
+				"Bình Định",
+				"binh dinh",
+				"Binh Dinh",
+				"BINH DINH"
+			  ]
+			},
+			{
+			  "place": "Bình Dương",
+			  "patterns": [
+				"bình dương",
+				"Bình Dương",
+				"binh duong",
+				"Binh Duong",
+				"BINH DUONG"
+			  ]
+			},
+			{
+			  "place": "Bình Phước",
+			  "patterns": [
+				"bình phước",
+				"Bình Phước",
+				"binh phuoc",
+				"Binh Phuoc",
+				"BINH PHUOC"
+			  ]
+			},
+			{
+			  "place": "Bình Thuận",
+			  "patterns": [
+				"bình thuận",
+				"Bình Thuận",
+				"binh thuan",
+				"Binh Thuan",
+				"BINH THUAN"
+			  ]
+			},
+			{
+				"place": "Cà Mau",
+				"patterns": ["cà mau", "Cà Mau", "ca mau", "Ca Mau", "CAMAU", "CA MAU", "CAMAu", "CAmau"]
+			},
+			{
+				"place": "Cần Thơ",
+				"patterns": ["cần thơ", "Cần Thơ", "can tho", "Can Tho", "CANTHO", "CAN THO", "CANTho", "CAntHo"]
+				},
+				{
+				"place": "Cao Bằng",
+				"patterns": ["cao bằng", "Cao Bằng", "cao bang", "Cao Bang", "CAOBANG", "CAO BANG", "CAOBang", "CAobang"]
+				},
+				{
+				"place": "Đắk Lắk",
+				"patterns": ["đắk lắk", "Đắk Lắk", "dak lak", "Dak Lak", "DAKLAK", "DAK LAK", "DAKlak", "DaKLak"]
+				},
+				{
+				"place": "Đắk Nông",
+				"patterns": ["đắk nông", "Đắk Nông", "dak nong", "Dak Nong", "DAKNONG", "DAK NONG", "DAKnong", "DaKNong"]
+				},
+				{
+				"place": "Điện Biên",
+				"patterns": ["điện biên", "Điện Biên", "dien bien", "Dien Bien", "DIENBIEN", "DIEN BIEN", "DIENBien", "DiENbiEn"]
+				},
+				{
+				"place": "Đồng Nai",
+				"patterns": ["đồng nai", "Đồng Nai", "dong nai", "Dong Nai", "DONGNAI", "DONG NAI", "DONGnai", "dOnGnAI"]
+				},
+				{
+				"place": "Đồng Tháp",
+				"patterns": ["đồng tháp", "Đồng Tháp", "dong thap", "Dong Thap", "DONGTHAP", "DONG THAP", "DONGthap", "dOngTHap"]
+				},
+				{
+				"place": "Gia Lai",
+				"patterns": ["gia lai", "Gia Lai", "GIAlai", "GIA LAI", "gIAlai", "giA Lai", "gia LAI", "giALai"]
+				},
+				{
+				"place": "Hà Giang",
+				"patterns": ["hà giang", "Hà Giang", "ha giang", "Ha Giang", "HAGIANG", "HA GIANG", "HAGiang", "haGiang"]
+				},
+				{
+				"place": "Hà Nam",
+				"patterns": ["hà nam", "Hà Nam", "ha nam", "Ha Nam", "HANAM", "HA NAM", "HAnam", "hanAM"]
+				},
+				{
+				"place": "Hà Tĩnh",
+				"patterns": ["hà tĩnh", "Hà Tĩnh", "ha tinh", "Ha Tinh", "HATINH", "HA TINH", "HAtinh", "hatiNh"]
+				},
+				{
+				"place": "Hải Dương",
+				"patterns": ["hải dương", "Hải Dương", "hai duong", "Hai Duong", "HAIDUONG", "HAI DUONG", "HAIduong", "haIDUONG","hai dương"]
+				},
+				{
+					"place": "Hậu Giang",
+					"patterns": [
+						"hau giang",
+						"Hậu Giang",
+						"Hau Giang",
+						"HẬU GIANG",
+						"hậu giang"
+					]
+				},
+				{
+					"place": "Hà Giang",
+					"patterns": [
+						"ha giang",
+						"Hà Giang",
+						"Ha Giang",
+						"HÀ GIANG",
+						"hà giang"
+					]
+				},
+				{
+					"place": "Hà Nam",
+					"patterns": [
+						"ha nam",
+						"Hà Nam",
+						"Ha Nam",
+						"HÀ NAM",
+						"hà nam"
+					]
+				},
+				{
+					"place": "Hà Nội",
+					"patterns": [
+						"ha noi",
+						"Hà Nội",
+						"Ha Noi",
+						"HÀ NỘI",
+						"hà nội"
+					]
+				},
+				{
+					"place": "Hà Tĩnh",
+					"patterns": [
+						"ha tinh",
+						"Hà Tĩnh",
+						"Ha Tinh",
+						"HÀ TĨNH",
+						"hà tĩnh"
+					]
+				},
+				{
+					"place": "Hòa Bình",
+					"patterns": [
+						"hoa binh",
+						"Hòa Bình",
+						"Hoa Binh",
+						"HÒA BÌNH",
+						"hòa bình"
+					]
+				},
+				{
+					"place": "Hưng Yên",
+					"patterns": [
+						"hung yen",
+						"Hưng Yên",
+						"Hung Yen",
+						"HƯNG YÊN",
+						"hưng yên"
+					]
+				},
+				{
+					"place": "Khánh Hòa",
+					"patterns": [
+						"khanh hoa",
+						"Khánh Hòa",
+						"Khanh Hoa",
+						"KHÁNH HÒA",
+						"khánh hòa"
+					]
+				},
+				{
+					"place": "Kiên Giang",
+					"patterns": [
+						"kien giang",
+						"Kiên Giang",
+						"Kien Giang",
+						"KIÊN GIANG",
+						"kiên giang"
+					]
+				},
+				{
+					"place": "Kon Tum",
+					"patterns": [
+						"kon tum",
+						"Kon Tum",
+						"KON TUM",
+						"kon tum"
+					]
+				},
+				{
+					"place": "Lai Châu",
+					"patterns": [
+						"lai chau",
+						"Lai Châu",
+						"Lai Chau",
+						"LAI CHÂU",
+						"lai châu"
+					]
+				},
+
+				{
+					"place": "Lâm Đồng",
+					"patterns": [
+						"lam dong",
+						"Lâm Đồng",
+						"Lam Dong",
+						"LÂM ĐỒNG",
+						"lâm đồng"
+					]
+				},
+				{
+					"place": "Lạng Sơn",
+					"patterns": [
+						"lang son",
+						"Lạng Sơn",
+						"Lang Son",
+						"LẠNG SƠN",
+						"lạng sơn"
+					]
+				},
+				{
+					"place": "Lào Cai",
+					"patterns": [
+						"lao cai",
+						"Lào Cai",
+						"Lao Cai",
+						"LÀO CAI",
+						"lào cai"
+					]
+				},
+				{
+					"place": "Long An",
+					"patterns": [
+						"long an",
+						"Long An",
+						"LONG AN",
+						"long an"
+					]
+				},
+				{
+					"place": "Nam Định",
+					"patterns": [
+						"nam dinh",
+						"Nam Định",
+						"Nam Dinh",
+						"NAM ĐỊNH",
+						"nam định"
+					]
+				},
+				{
+					"place": "Nghệ An",
+					"patterns": [
+						"nghe an",
+						"Nghệ An",
+						"Nghe An",
+						"NGHỆ AN",
+						"nghệ an"
+					]
+				},
+				{
+					"place": "Ninh Bình",
+					"patterns": [
+						"ninh binh",
+						"Ninh Bình",
+						"Ninh Binh",
+						"NINH BÌNH",
+						"ninh bình"
+					]
+				},
+				{
+					"place": "Ninh Thuận",
+					"patterns": [
+						"ninh thuan",
+						"Ninh Thuận",
+						"Ninh Thuan",
+						"NINH THUẬN",
+						"ninh thuận"
+					]
+				},
+				{
+					"place": "Phú Thọ",
+					"patterns": [
+						"phu tho",
+						"Phú Thọ",
+						"Phu Tho",
+						"PHÚ THỌ",
+						"phú thọ"
+					]
+				},
+				{
+					"place": "Phú Yên",
+					"patterns": [
+						"phu yen",
+						"Phú Yên",
+						"Phu Yen",
+						"PHÚ YÊN",
+						"phú yên"
+					]
+				},
+				{
+					"place": "Quảng Bình",
+					"patterns": [
+						"quang binh",
+						"Quảng Bình",
+						"Quang Binh",
+						"QUẢNG BÌNH",
+						"quảng bình"
+					]
+				},
+				{
+					"place": "Quảng Nam",
+					"patterns": [
+						"quang nam",
+						"Quảng Nam",
+						"Quang Nam",
+						"QUẢNG NAM",
+						"quảng nam"
+					]
+				},
+				{
+					"place": "Quảng Ngãi",
+					"patterns": [
+						"quang ngai",
+						"Quảng Ngãi",
+						"Quang Ngai",
+						"QUẢNG NGÃI",
+						"quảng ngãi"
+					]
+				},
+				{
+					"place": "Quảng Ninh",
+					"patterns": [
+						"quang ninh",
+						"Quảng Ninh",
+						"Quang Ninh",
+						"QUẢNG NINH",
+						"quảng ninh"
+					]
+				},
+				{
+					"place": "Quảng Trị",
+					"patterns": [
+						"quang tri",
+						"Quảng Trị",
+						"Quang Tri",
+						"QUẢNG TRỊ",
+						"quảng trị"
+					]
+				},
+				{
+					"place": "Sóc Trăng",
+					"patterns": [
+						"soc trang",
+						"Sóc Trăng",
+						"Soc Trang",
+						"SÓC TRĂNG",
+						"sóc trăng"
+					]
+				},
+				{
+					"place": "Sơn La",
+					"patterns": [
+						"son la",
+						"Sơn La",
+						"Son La",
+						"SƠN LA",
+						"sơn la"
+					]
+				},
+				{
+					"place": "Tây Ninh",
+					"patterns": [
+						"tay ninh",
+						"Tây Ninh",
+						"Tay Ninh",
+						"TÂY NINH",
+						"tây ninh"
+					]
+				},
+				{
+					"place": "Thái Bình",
+					"patterns": [
+						"thai binh",
+						"Thái Bình",
+						"Thai Binh",
+						"THÁI BÌNH",
+						"thái binh"
+					]
+				},
+				{
+					"place": "Thái Nguyên",
+					"patterns": [
+						"thai nguyen",
+						"Thái Nguyên",
+						"Thai Nguyen",
+						"THÁI NGUYÊN",
+						"thái nguyên"
+					]
+				},
+				{
+					"place": "Thanh Hóa",
+					"patterns": [
+						"thanh hoa",
+						"Thanh Hóa",
+						"Thanh Hoa",
+						"THANH HÓA",
+						"thanh hóa"
+					]
+				},
+				{
+					"place": "Thừa Thiên Huế",
+					"patterns": [
+						"thua thien hue",
+						"Thừa Thiên Huế",
+						"Thua Thien Hue",
+						"THỪA THIÊN HUẾ",
+						"thừa thiên huế"
+					]
+				},
+				{
+					"place": "Tiền Giang",
+					"patterns": [
+						"tien giang",
+						"Tiền Giang",
+						"Tien Giang",
+						"TIỀN GIANG",
+						"tiền giang"
+					]
+				},
+				{
+					"place": "Trà Vinh",
+					"patterns": [
+						"tra vinh",
+						"Trà Vinh",
+						"Tra Vinh",
+						"TRÀ VINH",
+						"trà vinh"
+					]
+				},
+				{
+					"place": "Tuyên Quang",
+					"patterns": [
+						"tuyen quang",
+						"Tuyên Quang",
+						"Tuyen Quang",
+						"TUYÊN QUANG",
+						"tuyên quang"
+					]
+				},
+				{
+					"place": "Vĩnh Long",
+					"patterns": [
+						"vinh long",
+						"Vĩnh Long",
+						"Vinh Long",
+						"VĨNH LONG",
+						"vĩnh long"
+					]
+				},
+				{
+					"place": "Vĩnh Phúc",
+					"patterns": [
+						"vinh phuc",
+						"Vĩnh Phúc",
+						"Vinh Phuc",
+						"VĨNH PHÚC",
+						"vĩnh phúc"
+					]
+				},
+				{
+					"place": "Yên Bái",
+					"patterns": [
+						"yen bai",
+						"Yên Bái",
+						"Yen Bai",
+						"YÊN BÁI",
+						"yên bái"
+					]
+				}
+			]
+	}
+]}
+	
+	
+	
